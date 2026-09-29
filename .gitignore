@@ -1,0 +1,17 @@
+# 含真实凭据，禁止入库
+config.json
+
+# Python 缓存
+__pycache__/
+*.pyc
+
+# NapCat 运行产物（非源码）
+napcat/cache/
+napcat/config/*.json
+napcat/qqnt.json
+
+# shell 重定向误建的保留设备名文件
+nul
+
+# NapCat 运行时副本（92MB 第三方产物，可随时从官方重新部署）
+napcat/
